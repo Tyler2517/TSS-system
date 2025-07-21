@@ -11,7 +11,7 @@
 }
 
 .nav-logo:hover {
-  filter: drop-shadow(0 0 1em #646cffaa);
+  filter: drop-shadow(0 0 1em #ff1717aa);
 }
 
 /* Update the nav-links styles in frontend/src/App.css */
@@ -30,7 +30,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #646cff;
+  background-color: #ff1b1b;
   transition: width 0.3s ease;
 }
 
@@ -39,12 +39,12 @@
 }
 
 .nav-links a.active {
-  color: #646cff;
+  color: #231fff;
 }
 
 .nav-links a.active::after {
   width: 100%;
-  background-color: #646cff;
+  background-color: #fe1d1d;
 }
 
 /* Add to frontend/src/App.css */
@@ -113,7 +113,7 @@ body {
 
 button[type="submit"] {
   padding: 0.75rem 1.5rem;
-  background-color: #646cff;
+  background-color: #f52222;
   color: white;
   border: none;
   border-radius: 4px;
@@ -123,5 +123,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #535bf2;
+  background-color: #e52626;
 }
